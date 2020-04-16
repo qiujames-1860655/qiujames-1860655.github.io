@@ -12,6 +12,7 @@ h3{
     color: #FFBC00;
 	font-size: 40px;
 	font-family: "Passion One";
+    font-variant: small-caps;
 	margin-bottom: 0px;
 }
 
@@ -19,6 +20,8 @@ a{
     color: white;
 	font-weight: bold;
 	font-size: 24px;
+    font-weight: lighter;
+
 }
 
 a:visited{
@@ -86,8 +89,6 @@ ul{
     text-align: center;
     padding: 15px;
     background-image: linear-gradient(purple, red);
-
-
 }
 
 #Footer {
