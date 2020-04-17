@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+}
+
+#first {
+    border-style: dotted;
+    border-width: 4px;
+    border-radius: 24px;
+    font-size: 24px;
+    width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+    font-style: italic;
+    font-family: "Times New Roman";
+}
+
+#second {
+    font-size: 12px;
+    font-style: normal;
+    font-family: "Arial";
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+div img {
+    width:200px;
+    height: 200px;
+}
+
+.container {
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    opacity: 75%;
+}
